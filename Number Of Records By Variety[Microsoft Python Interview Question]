@@ -1,0 +1,4 @@
+--Number Of Records By Variety[Microsoft Python Interview Question]
+
+import pandas as pd
+iris.groupby(['variety'])['sepal_length'].count().reset_index().sort_values(by='variety')
