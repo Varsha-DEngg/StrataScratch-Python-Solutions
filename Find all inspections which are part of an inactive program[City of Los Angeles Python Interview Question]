@@ -1,0 +1,4 @@
+--Find all inspections which are part of an inactive program[City of Los Angeles Python Interview Question]
+
+import pandas as pd
+los_angeles_restaurant_health_inspections[los_angeles_restaurant_health_inspections['program_status'].isin(["INACTIVE"])]
