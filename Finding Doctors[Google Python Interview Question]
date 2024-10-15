@@ -1,0 +1,6 @@
+--Finding Doctors[Google Python Interview Question]
+
+import pandas as pd
+newdf = employee_list
+result = newdf.query('last_name == "Johnson" and profession=="Doctor"')
+result[['first_name','last_name']]
