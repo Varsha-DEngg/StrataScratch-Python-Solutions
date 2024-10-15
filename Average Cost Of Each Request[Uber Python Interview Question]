@@ -1,0 +1,4 @@
+--Average Cost Of Each Request[Uber Python Interview Question]
+
+import pandas as pd
+uber_ride_requests.groupby(['request_status'])['monetary_cost'].mean().reset_index()
