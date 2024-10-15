@@ -1,0 +1,5 @@
+--Total Cost Of Orders[Amazon Python Interview Question]
+
+import pandas as pd
+newdf = pd.merge(customers,orders,left_on='id',right_on='cust_id',how='inner')
+newdf.groupby(['cust_id','first_name'])['total_order_cost'].sum().reset_index().sort_values('first_name')
