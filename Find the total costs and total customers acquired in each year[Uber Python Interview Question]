@@ -1,0 +1,4 @@
+--Find the total costs and total customers acquired in each year[Uber Python Interview Question]
+
+import pandas as pd
+uber_advertising.groupby(['year']).agg({'money_spent':'sum','customers_acquired':'sum'}).reset_index()
