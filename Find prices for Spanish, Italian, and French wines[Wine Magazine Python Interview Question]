@@ -1,0 +1,4 @@
+--Find prices for Spanish, Italian, and French wines[Wine Magazine Python Interview Question]
+
+import pandas as pd
+winemag_p1[winemag_p1['country'].isin(['Italy','France','Spain'])][['price']]
