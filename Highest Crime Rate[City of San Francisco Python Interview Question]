@@ -1,0 +1,5 @@
+--Highest Crime Rate[City of San Francisco Python Interview Question]
+
+import pandas as pd
+sf_crime_incidents_2014_01.groupby(['day_of_week'])['incidnt_num'].count().reset_index()
+
